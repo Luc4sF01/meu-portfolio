@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucas | Contato</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Fundo e partículas -->
+  <div id="background"></div>
+  <canvas id="particleCanvas"></canvas>
+  
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projects.html">Projetos</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="contact.html" class="active">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="contact">
+    <h2 class="reveal">Entre em Contato</h2>
+    <div class="contact-container reveal">
+      <form id="contact-form">
+        <div class="input-group">
+          <input type="text" id="name" required placeholder=" " />
+          <label for="name">Nome</label>
+        </div>
+        <div class="input-group">
+          <input type="email" id="email" required placeholder=" " />
+          <label for="email">Email</label>
+        </div>
+        <div class="input-group">
+          <textarea id="message" required placeholder=" "></textarea>
+          <label for="message">Mensagem</label>
+        </div>
+        <button type="submit" class="btn">Enviar Mensagem</button>
+      </form>
+      <div class="social-links reveal">
+        <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+        <a href="#" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+        <a href="#" target="_blank"><img src="images/github.png" alt="GitHub"></a>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <p>© 2025 Lucas - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>

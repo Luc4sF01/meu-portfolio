@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus Projetos | Lucas</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Fundo e partículas -->
+  <div id="background"></div>
+  <canvas id="particleCanvas"></canvas>
+  
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projects.html" class="active">Projetos</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section class="projects">
+    <h2 class="reveal">Meus Projetos</h2>
+    <div class="projects-container reveal">
+      <!-- Projeto 1 -->
+      <div class="project-card" data-title="Controle de Estoque" data-desc="Sistema de gerenciamento de estoque em Java &amp; MySQL. Detalhes e funcionalidades avançadas.">
+        <img src="https://picsum.photos/1080/1920?random=1" alt="Projeto 1">
+        <div class="overlay">
+          <h3>Controle de Estoque</h3>
+          <p>Sistema de gerenciamento de estoque em Java &amp; MySQL.</p>
+          <a href="#" class="btn open-modal">Ver Mais</a>
+        </div>
+      </div>
+      <!-- Projeto 2 -->
+      <div class="project-card" data-title="Controle de Gastos" data-desc="App Android com Firebase para gerenciar finanças pessoais.">
+        <img src="https://picsum.photos/1080/1920?random=2" alt="Projeto 2">
+        <div class="overlay">
+          <h3>Controle de Gastos</h3>
+          <p>App Android com Firebase para gerenciar finanças.</p>
+          <a href="#" class="btn open-modal">Ver Mais</a>
+        </div>
+      </div>
+      <!-- Projeto 3 -->
+      <div class="project-card" data-title="API de Lembretes" data-desc="API em Spring Boot que envia alertas via WhatsApp e Email.">
+        <img src="https://picsum.photos/1080/1920?random=3" alt="Projeto 3">
+        <div class="overlay">
+          <h3>API de Lembretes</h3>
+          <p>API Spring Boot que envia alertas via WhatsApp e Email.</p>
+          <a href="#" class="btn open-modal">Ver Mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Modal para detalhes do projeto -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h3 id="modal-title"></h3>
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+  
+  <footer>
+    <p>© 2025 Lucas - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
